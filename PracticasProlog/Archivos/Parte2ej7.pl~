@@ -1,0 +1,6 @@
+leer_y_probar(0,cero):-!.
+leer_y_probar(N,par):-0 is N mod 2.
+leer_y_probar(N,par):-X is N//2,X*2==N.
+leer_y_probar(impar).
+ejecutar:-repeat,write('Ingresa un numero '),read(N),leer_y_probar(N,Tipo),write(N),
+    write(' es '),write(Tipo),nl,N=:=100.

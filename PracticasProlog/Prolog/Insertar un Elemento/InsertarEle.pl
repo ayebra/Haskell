@@ -1,0 +1,1 @@
+insertar1(X,Lista,Resultado):-Resultado = [X|Lista].

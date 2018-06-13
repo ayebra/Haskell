@@ -1,0 +1,1 @@
+frase(nombre,sintagma_verbal(verbo,nombre)).
